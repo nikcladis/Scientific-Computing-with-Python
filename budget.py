@@ -86,7 +86,7 @@ def create_spend_chart(categories):
         string.append(sentence)
         row.clear()
     padding = " " * 4
-    string.append((padding + "-" * 3 * len(categories)))
+    string.append((padding + "-" * 3 * len(categories) + "-"))
 
     cat_string = []
 
